@@ -1,7 +1,5 @@
-# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
-
-name: Node.js CI
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and deploy the site at out/ to github pages (gh-pages branch)
+name: Github Pages
 
 on:
   push:
@@ -27,7 +25,7 @@ jobs:
         npm install
         npm run build
         npm run export
-    - name: Deploy to Github Pages 🚀
+    - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: out
