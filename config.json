@@ -1,7 +1,10 @@
 {
+  "site": {
+    "homePath": "site/"
+  },
   "headline": {
     "title": "Tal Glanzman",
-    "subtitle": "Software Engineer"
+    "subtitle": "v0"
   },
   "social": {
     "linkedin": "https://il.linkedin.com/in/tal-glanzman",
