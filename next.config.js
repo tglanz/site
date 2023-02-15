@@ -2,4 +2,5 @@
 module.exports = {
   trailingSlash: true,
   reactStrictMode: true,
+  assetPrefix: './'
 }
